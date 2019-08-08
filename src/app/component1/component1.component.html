@@ -1,0 +1,4 @@
+<input #ref type="text">
+<button (click)="ref.value">Always Me!!</button>
+
+<app-component2 [parentData]="ref.value"></app-component2>
